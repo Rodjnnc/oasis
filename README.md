@@ -1,2 +1,2 @@
 # oasis
-próximos passos: revisar o planejamento para esse site
+next steps- review all the structure
