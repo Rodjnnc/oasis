@@ -1,8 +1,26 @@
-# oasis
+<h1 align="center"> Oasis </h1>
 
-Oasis is a website for the family, to share and gather special moments.
-By the fire or inside a small lake.
-Oasis is the way we live it here in the Northeast Brasil.
-Keep on the track...
+<br>
 
-next steps- review all the architecture.
+
+<p align="center">
+  <img alt="Preview App" src="oasis.png" width="100%">
+</p>
+
+## 🚀 Tecnologies
+
+This project was developed with:
+
+- HTML
+- CSS 
+
+## 💻 Project
+
+Reintegrating the basics needs since 2019. 
+
+---
+
+No Copyright :wave: by https://www.freecodecamp.org
+
+- [Access the finished project, online](https://rodrigocccesar.github.io/oasis)
+

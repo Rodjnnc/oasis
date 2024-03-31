@@ -1,58 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oasis LG</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="header">
-      <a1>Oásis</a1>
-      <ul>
-        <li><p href="#">Events</p></li>
-        <li><p href="#">Sign up / Sign in</p></li>
-        <li><p href="#">Shop 🛒</p></li>    
-      </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Sitio Oasis</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="./imgs/fg-removebg-preview.png" />
+        <nav>
+            <ul>
+                <a href="./index.html">
+                  <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                  <li>Contato</li>
+                </a>
+                <a href="./fotos.html">
+                  <li>Fotos</li>
+                </a>
+                <a href="comentarios.html">
+                  <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div id="banner"></div>
+    <div id="trailer-container">
+      <div class="content">
+          <video controls class="trailer">
+              <source src="./imgs/MVI_0237.mp4" type="video/mp4">
+              Seu navegador não possui suporte para vídeos
+          </video>
+          <div id="sinopse">
+              <p class="description">
+                "Isso, ao menos, aprendi com meu experimento: se alguém avança com confiança na direção de seus sonhos e se esforça para ter a vida que imaginou, encontrará um sucesso inesperado em horas comuns.". Walden, 1854
+              </p>
+              <button class="button">Reservar Hospedagem</button>
+          </div>
+      </div>
     </div>
-    <div class="content">
-        <div class="text">
-        <strong>Haux, Haux, Haux.</strong>
-        <p>"Nenhum homem guiou seu gênio até o ponto de se equivocar. Ainda que o resultado fosse a exaustão física, 
-          ou inclusive no caso de que ninguém pudesse afirmar que as consequências teriam sido lamentáveis, para tais 
-          homens existia uma vida conforme princípios mais elevados. Se você recebe o dia e a noite com alegria, se a 
-          vida exala a fragrância das flores e das plantas aromáticas, se é mais flexível, estrelada e imortal, o mérito 
-          é seu. A natureza inteira é a sua recompensa. As grandes vitórias e os princípios são muito difíceis de se 
-          apreciar. Duvidamos da existência deles com facilidade. Logo os esquecemos. Mas são a mais elevada das realidades. 
-          A autêntica colheita da vida cotidiana é tão intangível e indescritível como os matizes da manhã e da noite. 
-          É como pegar um pouco de poeira das estrelas ou o fragmento de um arco-íris". Walden, 1854</p>
-        </div>      
-        <button type="button">Join us.</button>
-        <div class="img">
-            <img src="chacrona2.jpg" alt="Psychotria viridis.">
+
+    <div class="actor-cards-container">
+        <div class="cards-content">
+            <div class="card banner-1">Rodrigo Cerqueira César - Desenvolvedor</div>
+            <div class="card banner-2">Brígida de Lima - Designer</div>
+            <div class="card banner-3">Juliano Silva Sá - Extensionista</div>
         </div>
     </div>
-    <div class="information">
-        
-            <p href="#">Jurema</a></li>
-            <img src="base1.jpeg" alt="Bark Jurema.">
-        
-          
-            <p href="#">Chacrona</p>
-            <img src="base1.jpeg" alt="Chacrona leafs.">
-           
-            <p href="#">Mariri</p>
-            <img src="base1.jpeg" alt="Mariri vines.">
-             
-            <p href="#">Yôpo</p>
-            <img src="base1.jpeg" alt="Yôpo seeds.">
-    </div>
-  <div class="footer">
-    <p>Copyright © Sítio Oásis LG</p>
-  </div>
-  </body>
-  <foot>
 
-  </foot>
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./imgs/fg-removebg-preview.png"/>
+        <span>Todos os direitos reservados ©</span>
+        <span>Desenvolvido por: Rodrigo Cerqueira César</span>
+
+        <nav class="footer-navigation">
+          <ul class="footer-list">
+              <a href="./index.html">
+                <li>Home</li>
+              </a>
+              <a href="./contato.html">
+                <li>Contato</li>
+              </a>
+              <a href="./fotos.html">
+                <li>Fotos</li>
+              </a>
+              <a href="comentarios.html">
+                <li>Comentários</li>
+              </a>
+          </ul>
+      </nav>
+    </footer>
+</body>
 </html>
