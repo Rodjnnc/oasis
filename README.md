@@ -20,7 +20,5 @@ Reintegrating the basics needs since 2019.
 
 ---
 
-No Copyright :wave: by https://www.freecodecamp.org
-
-- [Access the finished project, online](https://rodrigocccesar.github.io/oasis)
+- [Access the finished project, online](https://rodcerqcsar.github.io/oasis)
 
