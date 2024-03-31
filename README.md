@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img alt="Preview App" src="oasis.png" width="100%">
+  <img alt="Preview Logo" src="./imgs/logo.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologies
